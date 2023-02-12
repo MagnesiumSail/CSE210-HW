@@ -4,6 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+        Scripture _scripture1 = new Scripture();
+        SetUpBoolean _hideWord1 = new SetUpBoolean(_scripture1.getVerses(), _scripture1.scriptureCount());
+        Display _display1 = new Display();
+
+        _display1.loopThroughDisplays(_scripture1.totalMaxWords(), _scripture1.getVerses(), _hideWord1.getBooleanList(), _scripture1.scriptureCount(), _hideWord1, _scripture1.getTitle());
+        
     }
 }
