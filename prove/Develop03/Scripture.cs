@@ -53,4 +53,15 @@ class Scripture
     {
         return title;
     }
+    /*public void loadScripture()
+    {
+        Console.WriteLine("Filename: ");
+        string fileName = Console.ReadLine();
+        string[] lines = System.IO.File.ReadAllLines(fileName);
+        title = lines[0].Trim();
+        for (int i = 1; i < lines.Length; i++)
+        {
+            verses.Add(lines[i]);
+        }
+    }*/
 }
