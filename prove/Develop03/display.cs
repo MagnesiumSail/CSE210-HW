@@ -27,7 +27,7 @@ class Display
     {
         for (int l = 0; l < loops + 1; l++)
         {
-            //Console.Clear();
+            Console.Clear();
             if (!_toggleWord.Contains(true))
             {
                 l++;
