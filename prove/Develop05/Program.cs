@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop05 World!");
+        GoalManager goalmanager = new GoalManager();
+        GoalFileManager fileManager = new GoalFileManager("test.txt");
+        Menu menu = new Menu();
+        menu.menuLogic(goalmanager, fileManager);
     }
 }
