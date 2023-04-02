@@ -1,1 +1,1 @@
-Simple,meat,eat meat,60,False
+Eternal,etta fodo,do it,400,False
